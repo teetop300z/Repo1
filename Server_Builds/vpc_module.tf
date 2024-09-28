@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "ec2" {
-  source = "github.com/teetop300z/Repo1/blob/main/Modules/"
+  source = "github.com/teetop300z/Repo1/tree/main/Modules"
 }
