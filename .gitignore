@@ -1,4 +1,5 @@
 **/.terraform/*
 *.tfvars
 *.tfstate.*
+*.html
 *.txt
