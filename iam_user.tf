@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "mymodules" {
-  source = "github.com/teetop300z/Repo2"
+  source = "git
 }
