@@ -4,5 +4,5 @@ provider "aws" {
 
 resource "aws_iam_user" "name" {
   name = "AWS-${count.index+1}"
-  count = 3
+  count = 5
 }
