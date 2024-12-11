@@ -4,5 +4,5 @@ resource "aws_instance" "ec2" {
 }
 
 resource "aws_iam_user" "name" {
-  name = "AutoAppliedUser"
+  name = "UpdatedUser"
 }
