@@ -3,7 +3,7 @@ resource "aws_instance" "ec2" {
   instance_type = "t2.micro"
 }
 
-resource "aws_instance" "ec2" {
+resource "aws_instance" "ec2-2" {
   ami = "ami-0427090fd1714168b"
   instance_type = "t2.micro"
 }
@@ -12,6 +12,6 @@ resource "aws_iam_user" "name" {
   name = "UpdatedUser001"
 }
 
-resource "aws_iam_user" "name" {
+resource "aws_iam_user" "name2" {
   name = "UpdatedUser002"
 }
