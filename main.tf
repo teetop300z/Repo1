@@ -6,5 +6,4 @@ resource "aws_instance" "ec2" {
 resource "aws_iam_user" "name" {
   name = "Myuser99"
 }
-
-// New line
+/*
