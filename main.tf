@@ -1,4 +1,4 @@
-resource "aws_instance" "488" {
+resource "aws_instance" "4880" {
     instance_type = "t2.nano"
     ami = "ami-0427090fd1714168b"
     count = 5
