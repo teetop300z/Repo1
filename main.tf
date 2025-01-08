@@ -9,12 +9,12 @@ resource "aws_ec2_instance_state" "test" {
   state       = "stopped"
 }
 
-resource "aws_ec2_instance_state" "test" {
+resource "aws_ec2_instance_state" "test2" {
   instance_id = "i-06c63ec959fc3705f"
   state       = "stopped"
 }
 
-resource "aws_ec2_instance_state" "test" {
+resource "aws_ec2_instance_state" "test3" {
   instance_id = "i-053c8b99bbaec25b6"
   state       = "stopped"
 }
