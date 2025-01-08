@@ -1,3 +1,5 @@
-resource "aws_iam_user" "name" {
-  name = "Myuser9229"
+resource "aws_instance" "myec2" {
+  ami = "ami-01816d07b1128cd2d"
+  instance_type = "t2.micro"
+  count = 3
 }
