@@ -1,6 +1,6 @@
 resource "aws_iam_group_policy" "my_developer_policy" {
-  name  = "my_developer_policy"
-  group = "developers"
+  name  = "ConnectGroupPolicy111"
+  group = "ConnectGroup"
 
   # Terraform's "jsonencode" function converts a
   # Terraform expression result to valid JSON syntax.
@@ -18,7 +18,7 @@ resource "aws_iam_group_policy" "my_developer_policy" {
   })
 }
 
-resource "aws_iam_group" "group1" {
-  name = "ContactCenter"
+resource "aws_iam_group" "group16" {
+  name = "ConnectGroup"
   path = "/users/"
 }
