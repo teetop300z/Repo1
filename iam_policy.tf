@@ -1,4 +1,3 @@
-/*
 resource "aws_iam_group_policy" "my_developer_policy" {
   name  = "my_developer_policy"
   group = "developers"
@@ -12,10 +11,14 @@ resource "aws_iam_group_policy" "my_developer_policy" {
         Action = [
           "ec2:Describe*",
         ]
-        Effect   = "Allow"
+        Effect   = "Deny"
         Resource = "*"
       },
     ]
   })
 }
-*/
+
+resource "aws_iam_group" "group1" {
+  name = "ContactCenter"
+  path = "/users/"
+}
