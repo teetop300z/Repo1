@@ -21,4 +21,5 @@ resource "aws_iam_group_policy" "my_developer_policy" {
 resource "aws_iam_group" "group16" {
   name = "ConnectGroup"
   path = "/users/"
+  depends_on = [ aws_iam_group_policy.my_developer_policy ]
 }
